@@ -1,3 +1,7 @@
+---
+title: Matthew Pomes
+---
+
 # Matthew Pomes
 
 Information about me
