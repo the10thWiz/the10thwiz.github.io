@@ -68,23 +68,27 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Webserver Admin (Contestant), National Collegiate Cyber Defense Competition (CCDC)
+    - role: Webserver Admin (Contestant)
+      company: National Collegiate Cyber Defense Competition (CCDC)
       time: Dec 2019 – Present 
       details: |
        Protected Webserver against an active red team 
        Won State competition in Wisconsin for UW-Stout 
-    - role: Lead Programmer, First Robotics Team 1732, Milwaukee, WI
+    - role: Lead Programmer
+      company: First Robotics Team 1732, Milwaukee, WI
       time: September 2017 – March 2019 
       details: |
        Wrote fully autonomous climbing code for our robot 
        Organized our team efforts, and implemented source control via Git 
-    - role: Team Member, Cyberpatriot team, Milwaukee, WI
+    - role: Team Member
+      company: Cyberpatriot team, Milwaukee, WI
       time: September 2015 – March 2019 
       details: |
        Secured desktop images and implemented security policies 
        Coordinated efforts to secure several desktop images 
        Configured a network for the secure transmission of data 
-    - role: Participant, Cryptopals and Project Euler Challenge Sets
+    - role: Participant
+      company: Cryptopals and Project Euler Challenge Sets
       time: Jan 2017 – Present 
       details: |
        Solved complex Computer Science challenges 
