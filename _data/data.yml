@@ -24,10 +24,11 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    local-link: 'PDF version'
 
-    languages:
-      - idiom: English
-        level: Native
+    #languages:
+      #- idiom: English
+        #level: Native
 
     interests:
       - item: Baking
@@ -67,11 +68,32 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Webserver Admin (Contestant), National Collegiate Cyber Defense Competition (CCDC)
+      time: Dec 2019 – Present 
       details: |
-         ?
+       Protected Webserver against an active red team 
+       Won State competition in Wisconsin for UW-Stout 
+    - role: Lead Programmer, First Robotics Team 1732, Milwaukee, WI
+      time: September 2017 – March 2019 
+      details: |
+       Wrote fully autonomous climbing code for our robot 
+       Organized our team efforts, and implemented source control via Git 
+    - role: Team Member, Cyberpatriot team, Milwaukee, WI
+      time: September 2015 – March 2019 
+      details: |
+       Secured desktop images and implemented security policies 
+       Coordinated efforts to secure several desktop images 
+       Configured a network for the secure transmission of data 
+    - role: Participant, Cryptopals and Project Euler Challenge Sets
+      time: Jan 2017 – Present 
+      details: |
+       Solved complex Computer Science challenges 
+       Worked with AES Encryption, and various attacks on it
+    #- role: Lead Developer
+      #time: 2015 - Present
+      #company: Startup Hubs, San Francisco
+      #details: |
+         #?
 projects:
     title: Projects
     intro: >
@@ -105,20 +127,41 @@ projects:
         #conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiencies
 
     toolset:
-      - name: Python & Django
+      - name: Rust
         level: 98%
-
-      - name: Javascript & jQuery
+      - name: Python
         level: 98%
-
-      - name: Angular
+      - name: Java
         level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
+      - name: C / C++ / Objective-C
+        level: 98%
+      - name: C#
+        level: 98%
+      - name: Assembly
+        level: 98%
+      - name: HTML / CSS / JavaScript
+        level: 98%
+      - name: LaTeX 
+        level: 98%
+      - name: OpenGL / Vulkan
+        level: 98%
+      - name: Git
+        level: 98%
+      - name: Blender
+        level: 98%
+      - name: Inkscape
+        level: 98%
+      - name: Packet Tracer
+        level: 98%
+      - name: MS Office
+        level: 98%
+      - name: Vim
+        level: 98%
+      - name: Unity
+        level: 98%
 
 footer: >
     Template designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
