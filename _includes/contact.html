@@ -73,9 +73,15 @@
     </li>
     {% endif %}
 
-    {% if sidebar.local-link %}
+    {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="/resume.pdf" target="_blank">{{ sidebar.local-link }}</a>
+      <a href="/{{ sidebar.pdf }}" target="_blank">{{ sidebar.pdf }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.docx %}
+    <li class="pdf"><i class="fas fa-file-word"></i>
+      <a href="/{{ sidebar.docx }}" target="_blank">{{ sidebar.docx }}</a>
     </li>
     {% endif %}
 
