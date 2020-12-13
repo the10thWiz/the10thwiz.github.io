@@ -21,8 +21,8 @@ sidebar:
     gitlab:
     bitbucket:
     twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    stack-overflow: 6592117/matthew
+    codewars: the10thWiz
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 'resume.pdf'
     docx: 'resume.docx'
@@ -44,7 +44,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      TODO - write simple intro
+       My name is Matthew Pomes, I'm a Computer Scence Student at UW-Stout. My focus is
+       on Cybersecurity and related issues. I enjoy working with computers, and exoloring
+       the security mechanisms that the modern relies upon. I'm studying a diverse set of
+       topics, incuding networking, software development, and cryptography.
 education:
     - degree: Bachelor in Computer Science
       university: University of Wisconsin - Stout
