@@ -88,6 +88,9 @@ projects:
       - title: Cryptopals
         link: "https://github.com/the10thWiz/cryptopals"
         tagline: "A challenging set of cryptographic challenges"
+      - title: coc-rust-analyzer
+        link: "https://github.com/the10thWiz/coc-rust-analyzer"
+        tagline: "My contributions to the rust-analyzer extension for coc.nvim"
 skills:
     title: Skills &amp; Proficiencies
 
