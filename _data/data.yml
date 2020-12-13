@@ -82,8 +82,6 @@ experiences:
        Configured a network for the secure transmission of data 
 projects:
     title: Projects
-    intro: >
-       TODO - Add projects
     assignments:
       - title: Cryptopals
         link: "https://github.com/the10thWiz/cryptopals"
