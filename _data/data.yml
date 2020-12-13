@@ -24,7 +24,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    local-link: 'Resume pdf'
+    local-link: 'resume pdf'
 
     #languages:
       #- idiom: English
