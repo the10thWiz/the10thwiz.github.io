@@ -1,0 +1,17 @@
+{% assign projects = site.data.data.projects %} {% if projects %}
+<section class="section projects-section">
+  <h2 class="section-title">
+    <span class="icon-holder"><i class="fas fa-archive"></i></span>Projects
+  </h2>
+  <div class="intro">{{ site.data.data.project_intro }}</div>
+  {% for p in projects %}
+  <div class="item">
+    <span class="project-title">
+      <a href="{{ p.url }}" target="_blank">{{ p.title }}</a>
+    </span>
+    -
+    <span class="project-tagline"> {{ p.details }} </span>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

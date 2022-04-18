@@ -1,0 +1,100 @@
+
+sidebar:
+  name: Matthew Pomes
+  tagline: Student Developer
+  email: matthew.pomes@pm.me
+  phone: '(414) 416 0144'
+  website: the10thwiz.github.io
+  #linkedin:
+  github: the10thwiz
+  #twitter:
+  resume: '/matthew_pomes_resume.docx'
+  education:
+    - name: Bachelor of Computer Science
+      uni: UW - Stout
+      time: '2019 - 2023'
+    - name: Bachelor of Applied Math and Computer Science
+      uni: UW - Stout
+      time: '2019 - 2023'
+  interests:
+    - Baking
+    - Cycling
+    - Eso-langs
+
+career: >
+  I'm a software developer with an interest in cyber security. My favorite language is Rust,
+  primarily due to it's focus on safety, security, and developer experience. My primary focus is
+  on developing 
+
+experiences:
+  - title: Firmware Engineer Intern
+    subtext: Eaton
+    time: July 2021 – Aug 2021
+    details: >
+      Worked on firmware for a Recloser control
+      Implemented IP-Sec connections for the control
+
+project_intro: >
+  I've worked on a variety of coding projects
+
+projects:
+  - title: Rocket
+    url: https://rocket.rs/
+    details: >
+      A fast, secure, async web framework for Rust. I am contributing to the development of 0.5,
+      and am working on adding WebSocket support to Rocket
+  - title: Cryptopals Challenge set
+    url: https://github.com/the10thwiz/cryptopals
+    details: >
+      My solutions to the Cryptopals Challenge set. These challenges focus on writing practical
+      attacks against various crypto systems, including AES and RSA.
+  - title: National Collegiate Cyber Defense Competition
+    url: https://www.nationalccdc.org/
+    details: >
+      Worked as a Webserver and Windows Admin to secure our team's enviroment against an active red
+      team. I developed scripts to quicly apply security settings and configure centralized logging.
+  - title: Team 1732 - First Robotics Competition (FRC)
+    url: https://www.team1732.com/
+    details: >
+      Worked on the programming subteam of FRC Team 1732. I developed control algorithms for driver
+      assistance and fully autonomous features. I was also responsible for managing the team's
+      Github repository.
+  - title: CyberPatriot
+    url: https://www.uscyberpatriot.org/
+    details: >
+      Worked as a Linux and Windows Admin to secure our team's enviroment.
+
+clubs:
+  - name: Information Security Professionals
+    time: 2019 - Present
+    details: >
+      A professional development club with a focus on Cyber Security.
+  - name: Institute of Electrical and Electronics Engineers
+    time: 2019 - Present
+    details: >
+      I participate in the local student chapter of IEEE.
+  - name: Women's AMCS
+    time: 2019 - Present
+    details: >
+      A professional development club with a focus on supporting Women in STEM, especially in
+      Math and Computer Science
+
+skills:
+  - Rust
+  - Python
+  - Java
+  - C / C++
+  - C#
+  - Assembly
+  - JavaScript
+  - HTML
+  - CSS
+  - OpenGL / Vulkan
+  - Git
+  - Web Development
+  - IP-Sec
+  - Docker
+
+
+
+

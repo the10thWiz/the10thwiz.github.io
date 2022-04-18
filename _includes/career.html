@@ -1,0 +1,14 @@
+{% assign career = site.data.data.career %} {% if career %}
+<section class="section summary-section">
+  <h2 class="section-title">
+    <span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile
+  </h2>
+  <div class="summary">
+    <p>
+      {{ career }}
+    </p>
+  </div>
+  <!--//summary-->
+</section>
+<!--//section-->
+{% endif %}

@@ -1,0 +1,93 @@
+{% assign sidebar = site.data.data.sidebar %} {% if sidebar %}
+<div class="sidebar-wrapper">
+  <div class="profile-container">
+    <img class="profile w-100 rounded-circle" src="assets/images/profile.jpg" alt="" />
+    <h1 class="name">{{ sidebar.name }}</h1>
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+  </div>
+  <!--//profile-container-->
+
+  <div class="contact-container container-block">
+    <ul class="list-unstyled contact-list">
+      {% if sidebar.email %}
+      <li class="email">
+        <i class="fas fa-envelope"></i
+        ><a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      </li>
+      {% endif %} {% if sidebar.phone %}
+      <li class="phone">
+        <i class="fas fa-phone"></i
+        ><a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      </li>
+      {% endif %} {% if sidebar.website %}
+      <li class="website">
+        <i class="fas fa-globe"></i
+        ><a href="https://{{ sidebar.website }}" target="_blank"
+          >{{ sidebar.website }}</a
+        >
+      </li>
+      {% endif %} {% if sidebar.linkedin %}
+      <li class="linkedin">
+        <i class="fab fa-linkedin-in"></i
+        ><a
+          href="https://linkedin.com/in/{{ sidebar.linkedin }}"
+          target="_blank"
+          >{{ sidebar.linkedin }}</a
+        >
+      </li>
+      {% endif %} {% if sidebar.github %}
+      <li class="github">
+        <i class="fab fa-github"></i
+        ><a href="https://github.com/{{ sidebar.github }}" target="_blank"
+          >{{ sidebar.github }}</a
+        >
+      </li>
+      {% endif %} {% if sidebar.twitter %}
+      <li class="twitter">
+        <i class="fab fa-twitter"></i
+        ><a href="https://twitter.com/3rdwave_themes" target="_blank"
+          >@{{ sidebar.twitter }}</a
+        >
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  <!--//contact-container-->
+
+  {% if sidebar.education %}
+  <div class="education-container container-block">
+    <h2 class="container-block-title">Education</h2>
+    {% for degree in sidebar.education %}
+    <div class="item">
+      <h4 class="degree">{{ degree.name }}</h4>
+      <h5 class="meta">{{ degree.uni }}</h5>
+      <div class="time">{{ degree.time }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if sidebar.languages %}
+  <div class="languages-container container-block">
+    <h2 class="container-block-title">Languages</h2>
+    <ul class="list-unstyled interests-list">
+      {% for language in sidebar.languages %}
+      <li>{{ language }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if sidebar.interests %}
+  <div class="interests-container container-block">
+    <h2 class="container-block-title">Interests</h2>
+    <ul class="list-unstyled interests-list">
+      {% for language in sidebar.interests %}
+      <li>{{ language }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}

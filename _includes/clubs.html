@@ -1,0 +1,22 @@
+{% assign clubs = site.data.data.clubs %} {% if clubs %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="icon-holder"><i class="fas fa-briefcase"></i></span>Clubs
+  </h2>
+
+  {% for club in clubs %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">{{ club.name }}</h3>
+        <div class="time">{{ club.time }}</div>
+      </div>
+      {% if club.subtext %}
+      <div class="company">{{ club.subtext }}</div>
+      {% endif %}
+    </div>
+    <div class="details">{{ club.details }}</div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
