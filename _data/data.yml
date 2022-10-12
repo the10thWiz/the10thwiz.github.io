@@ -1,21 +1,20 @@
-
 sidebar:
   name: Matthew Pomes
   tagline: Student Developer
   email: matthew.pomes@pm.me
-  phone: '(414) 416 0144'
+  phone: "(414) 416 0144"
   website: the10thwiz.github.io
   #linkedin:
   github: the10thwiz
   #twitter:
-  resume: '/matthew_pomes_resume.docx'
+  resume: "/matthew_pomes_resume.docx"
   education:
     - name: Bachelor of Computer Science
       uni: UW - Stout
-      time: '2019 - 2023'
+      time: "2019 - 2023"
     - name: Bachelor of Applied Math and Computer Science
       uni: UW - Stout
-      time: '2019 - 2023'
+      time: "2019 - 2023"
   interests:
     - Baking
     - Cycling
@@ -24,15 +23,16 @@ sidebar:
 career: >
   I'm a software developer with an interest in cyber security. My favorite language is Rust,
   primarily due to it's focus on safety, security, and developer experience. My primary focus is
-  on developing 
+  on developing
 
 experiences:
   - title: Firmware Engineer Intern
     subtext: Eaton
-    time: July 2021 – Aug 2021
+    time: July 2021 – Aug 2022
     details: >
       Worked on firmware for a Recloser control
       Implemented IP-Sec connections for the control
+      Implemented IEC 62351-8 compliant Certificate based autentication for USB devices
 
 project_intro: >
   I've worked on a variety of coding projects
@@ -94,7 +94,5 @@ skills:
   - Web Development
   - IP-Sec
   - Docker
-
-
-
-
+  - PKI
+  - Yocto Linux
