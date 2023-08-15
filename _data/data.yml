@@ -27,10 +27,10 @@ experiences:
     subtext: Eaton
     time: July 2021 – Aug 2023
     details: >
-      Worked on firmware for a Recloser control
-      Implemented IP-Sec connections for the control
-      Implemented IEC 62351-8 compliant Certificate based autentication for USB devices
-      Assisted implementing IEC 61850 ‘GOOSE’ communication protocol
+      - Worked on firmware for a Recloser control
+      - Implemented IP-Sec connections for the control
+      - Implemented IEC 62351-8 compliant Certificate based autentication for USB devices
+      - Assisted implementing IEC 61850 ‘GOOSE’ communication protocol
 
 project_intro: >
   I've worked on a variety of coding projects
