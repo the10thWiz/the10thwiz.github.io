@@ -12,9 +12,6 @@ sidebar:
     - name: Bachelor of Computer Science
       uni: UW - Stout
       time: "2019 - 2023"
-    - name: Bachelor of Applied Math and Computer Science
-      uni: UW - Stout
-      time: "2019 - 2023"
   interests:
     - Baking
     - Cycling
@@ -28,11 +25,12 @@ career: >
 experiences:
   - title: Firmware Engineer Intern
     subtext: Eaton
-    time: July 2021 – Aug 2022
+    time: July 2021 – Aug 2023
     details: >
       Worked on firmware for a Recloser control
       Implemented IP-Sec connections for the control
       Implemented IEC 62351-8 compliant Certificate based autentication for USB devices
+      Assisted implementing IEC 61850 ‘GOOSE’ communication protocol
 
 project_intro: >
   I've worked on a variety of coding projects
@@ -42,7 +40,7 @@ projects:
     url: https://rocket.rs/
     details: >
       A fast, secure, async web framework for Rust. I am contributing to the development of 0.5,
-      and am working on adding WebSocket support to Rocket
+      and assisted with the WebSocket implementation
   - title: Cryptopals Challenge set
     url: https://github.com/the10thwiz/cryptopals
     details: >
